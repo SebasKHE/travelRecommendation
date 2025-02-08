@@ -21,7 +21,7 @@ nav {
     height: 60px;
 }
 
-h1 {
+#h1nav {
     font-family: 'Poppins' sans-serif;
     font-style: italic;
     color: white;
@@ -89,4 +89,90 @@ button {
     border-radius: 5px;
     color: white;
     border: none;
+}
+
+.content-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('brackgroundhome.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+}
+
+.content-container h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+    padding-left: 10%;
+    padding-top: 6%;
+
+
+}
+
+.content-container p {
+    font-size: 20px;
+    color: white;
+    max-width: 425px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 10px;
+    padding-bottom: 1%;
+    justify-content: start;
+    background-color: rgba(47, 53, 58, 0.699);
+    margin-left: 10%;
+    border-radius: 5%;
+}
+
+.content-container button {
+    padding: 10px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.151);
+    margin: 30px;
+    margin-left: 10%;
+    background-color: rgba(7, 51, 65, 0.863);
+    margin-top: 3%;
+}
+
+.social-container {
+    position: fixed;
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo */
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia */
+    padding: 60px 10px; /* Espacio dentro del fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Espacio entre iconos */
+}
+
+.social-icons::before {
+    content: "";
+    width: 2px; /* Grosor de la línea */
+    height: 200px; /* Longitud de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    margin-bottom: 50px; /* Espacio entre la línea y los iconos */
+}
+
+.social-icons a {
+    color: white; /* Color de los iconos */
+    font-size: 24px; /* Tamaño de los iconos */
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00aaff; /* Cambia el color al pasar el cursor */
 }

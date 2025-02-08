@@ -102,6 +102,7 @@ button {
     position: absolute;
 }
 
+
 .content-container h1 {
     font-size: 70px;
     text-transform: uppercase;
@@ -176,3 +177,114 @@ button {
 .social-icons a:hover {
     color: #00aaff; /* Cambia el color al pasar el cursor */
 }
+
+.aboutus-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('brackgroundhome.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(to right, rgba(102, 210, 224, 0.685), rgba(15, 59, 71, 0.801));
+
+    position: absolute;
+}
+
+
+.aboutus-container h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-weight: bold;
+
+}
+
+.aboutus-container p {
+    font-size: 20px;
+    color: white;
+    max-width: 1500px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 10px;
+    padding-bottom: 1%;
+    justify-content: start;
+    background-color: rgba(5, 5, 5, 0.521);
+    margin-left: 10%;
+    
+   
+}
+
+.aboutus-container button {
+    padding: 10px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.151);
+    margin: 30px;
+    margin-left: 10%;
+    background-color: rgba(7, 51, 65, 0.863);
+    margin-top: 3%;
+}
+.team-container {
+    margin: 5%;
+    margin-left: 13%;
+    margin-right: 12%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    
+    border-radius: 10%;
+    
+    
+}
+
+.members {
+    background-color: rgba(0, 0, 0, 0.822);
+    padding: 10px;
+    border-radius: 10%;
+    height: 170px;
+    width: 300px;
+    
+}
+
+.members p {
+    font-size: 16px;
+    background-color: none ;
+    
+    
+    
+}
+
+.team-container h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+}
+
+.team-container h3 {
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+.team-container h4 {
+    color: rgb(168, 168, 168);
+    font-size: 15px;
+    margin-left: 10%;
+    max-width: 200px;
+    
+}
+.team-container button {
+    
+    width: max-content;
+}
+

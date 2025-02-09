@@ -273,7 +273,17 @@ button {
     border-radius: 10px; /* Bordes redondeados */
     backdrop-filter: blur(5px); /* Efecto de desenfoque */
     height: 700px;
-    width: 650px;
+    width: 40%;
+
+}
+
+@media (max-width: 768px) {
+    .cites-container {
+        width: 95%;
+        right: 20px;
+        height: auto; /* Ajusta la altura automáticamente */
+        padding: 40px 10px;
+    }
 }
 
 

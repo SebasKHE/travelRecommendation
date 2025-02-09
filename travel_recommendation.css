@@ -66,6 +66,18 @@ ul {
     width: fit-content; /* Ajusta el tamaño al contenido */
 }
 
+.oculto {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 10px; /* Espacio entre elementos */
+    background-color: white;
+    padding: 10px; /* Reduce padding innecesario */
+    border-radius: 20px;
+    height: 40px;
+    width: fit-content; /* Ajusta el tamaño al contenido */
+    visibility: hidden;
+}
+
 .search_container i {
     font-size: 18px;
     color: rgb(15, 59, 71);
@@ -200,6 +212,7 @@ button {
     padding-left: 10%;
     padding-top: 2%;
     font-weight: bold;
+    margin-top: 10%;
 
 }
 
@@ -216,6 +229,8 @@ button {
     justify-content: start;
     background-color: rgba(5, 5, 5, 0.521);
     margin-left: 10%;
+
+    border-radius: 5px;
     
    
 }
@@ -288,3 +303,89 @@ button {
     width: max-content;
 }
 
+.contactus-container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('brackgroundhome.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: linear-gradient(to right, rgba(102, 210, 224, 0.685), rgba(15, 59, 71, 0.801));
+
+    position: absolute;
+}
+
+
+.contactus-container h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+    line-height: 1.2;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-weight: bold;
+    margin-top: 17%;
+}
+
+.contactus-container p {
+    font-size: 20px;
+    color: white;
+    max-width: 125px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-left: 10px;
+    padding-bottom: 1%;
+    
+    background-color: rgba(5, 5, 5, 0.521);
+    margin-left: 10%;
+    
+   
+}
+
+.contactus-container button {
+    padding: 10px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px rgba(75, 75, 75, 0.151);
+    margin: 30px;
+    margin-left: 10%;
+    background-color: rgba(7, 51, 65, 0.863);
+    margin-top: 3%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15%;
+    margin-left: 50%;
+    margin-right: 50px;
+    background-color: rgba(7, 51, 65, 0.671);
+    padding: 20px;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+#message {
+    height: 150px;
+    background-color: rgba(7, 51, 65, 0.452);
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+}
+
+.form-container label {
+    color: white;
+}
+
+.form-container input {
+    background-color: rgba(7, 51, 65, 0.452);
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    padding: 5px;
+}

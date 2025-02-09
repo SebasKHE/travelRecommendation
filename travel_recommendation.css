@@ -8,8 +8,10 @@
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 nav {
@@ -22,7 +24,7 @@ nav {
 }
 
 #h1nav {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: italic;
     color: white;
 }
@@ -63,7 +65,8 @@ ul {
     padding: 10px; /* Reduce padding innecesario */
     border-radius: 20px;
     height: 40px;
-    width: fit-content; /* Ajusta el tamaño al contenido */
+    width: 100%; /* Ajusta el tamaño al 100% del contenedor */
+    max-width: 300px; /* Ancho máximo para mantener la responsividad */
 }
 
 .oculto {
@@ -197,7 +200,7 @@ button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: linear-gradient(to right, rgba(102, 210, 224, 0.685), rgba(15, 59, 71, 0.801));
+    background: linear-gradient(to right, rgba(102, 210, 224, 0.685), rgba(15, 59, 71, 0.801));
 
     position: absolute;
 }
@@ -360,7 +363,9 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: -15%;
-    margin-left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px; /* Adjust the max-width as needed */
     margin-right: 50px;
     background-color: rgba(7, 51, 65, 0.671);
     padding: 20px;

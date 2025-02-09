@@ -1,9 +1,6 @@
-var xhr = new XMLHttpRequest();
-var url = './travel_recommendation_api.json';
-
-xhr.open('GET', url, true);
-xhr.responseType = 'json';
-xhr.onload = function() {
-    var cites = xhr.response.name;
-    console.log(cites)
-}
+fetch('./travel_recommendation_api.json')
+.then(response => response.json())
+.then(data => {
+  console.log(data);
+  // Do something with your data
+})

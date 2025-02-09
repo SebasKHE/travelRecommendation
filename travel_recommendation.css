@@ -200,8 +200,6 @@ button {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background: linear-gradient(to right, rgba(102, 210, 224, 0.685), rgba(15, 59, 71, 0.801));
-
     position: absolute;
 }
 
@@ -260,8 +258,24 @@ button {
     
     border-radius: 10%;
     
+
+
     
 }
+
+.cites-container {
+    position: absolute;
+    right: 80px; /* Ajusta la distancia desde el borde izquierdo */
+    margin-top: 25%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Fondo negro con transparencia */
+    padding: 60px 10px; /* Espacio dentro del fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
+    height: 700px;
+    width: 650px;
+}
+
 
 .members {
     background-color: rgba(0, 0, 0, 0.822);
